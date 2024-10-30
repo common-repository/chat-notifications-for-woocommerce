@@ -1,0 +1,90 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .wafwc-plugin-context .wafwc-container {
+    padding: 15px;
+    background-color: #fff;
+    margin: 15px 15px 0 0;
+}
+
+.wafwc-plugin-context .wafwc-heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 18px;
+}
+
+.wafwc-plugin-context .wafwc-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.wafwc-plugin-context #wafwc-wa-token {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.wafwc-plugin-context .wafwc-approved {
+    color: #00a32a;
+}
+
+.wafwc-plugin-context .wafwc-info-txt {
+    font-style: italic;
+    color: #818181;
+}
+
+.wafwc-plugin-context #wafwc-select-template {
+    display: block;
+}
+
+.wafwc-plugin-context #wafwc-template-body-txt {
+    margin: 15px 0;
+}
+
+.wafwc-plugin-context .wafwc-wc-elements-skeleton {
+    display: block;
+    margin: 10px 0;
+}
+
+.wafwc-plugin-context .wafwc-select-group {
+    margin-bottom: 10px;
+}
+
+/* Notification popups */
+.wafwc-plugin-context .wafwc-alert {
+    display: none;
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+    width: 250px;
+    position: fixed;
+    right: 0px;
+    top: 20%;
+}
+
+.wafwc-plugin-context .wafwc-alert.success {background-color: #4CAF50;}
+.wafwc-plugin-context .wafwc-alert.info {background-color: #2196F3;}
+.wafwc-plugin-context .wafwc-alert.warning {background-color: #ff9800;}
+
+.wafwc-plugin-context .wafwc-alert-closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.wafwc-plugin-context .wafwc-alert-closebtn:hover {
+    color: black;
+}
